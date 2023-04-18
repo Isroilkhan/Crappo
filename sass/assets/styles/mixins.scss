@@ -1,0 +1,23 @@
+@mixin btnMixin{
+  padding: 12px 18px;
+  border: none;
+  border-radius: 20px;
+  background-color: #3671E9;
+  color: white;
+}
+
+.btn{
+  @include btnMixin
+}
+
+@mixin header_btnMixin{
+  padding: 12px 18px;
+  border: none;
+  border-radius: 20px;
+  background-color: white;
+  color: black;
+}
+
+.header_btn{
+  @include header_btnMixin
+}

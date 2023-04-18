@@ -1,0 +1,452 @@
+.btn {
+  padding: 12px 18px;
+  border: none;
+  border-radius: 20px;
+  background-color: #3671E9;
+  color: white;
+}
+
+.header_btn {
+  padding: 12px 18px;
+  border: none;
+  border-radius: 20px;
+  background-color: white;
+  color: black;
+}
+
+body {
+  min-width: 1140px;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Rubik", sans-serif;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  margin: 0;
+  padding: 0;
+}
+
+.container header {
+  background-color: #0D0D2B;
+  height: 1240px;
+  color: white;
+  font-family: "Rubik", sans-serif;
+}
+.container header .head {
+  display: flex;
+  justify-content: space-around;
+}
+.container header .head .box {
+  display: flex;
+}
+.container header .head .box img {
+  width: 30px;
+  height: 30px;
+  align-self: center;
+}
+.container header .head .box h4 {
+  color: white;
+  align-self: center;
+  margin-left: 16px;
+}
+.container header .head .box ul {
+  display: flex;
+  margin-right: 16px;
+}
+.container header .head .box ul a {
+  padding: 0 5px;
+  color: white;
+}
+.container header .body {
+  display: flex;
+  justify-content: space-evenly;
+}
+.container header .body .text {
+  align-self: center;
+}
+.container header .body .text h1 {
+  font-size: 52px;
+}
+.container header .body .text .form {
+  border-radius: 10px;
+  background-color: grey;
+  padding: 2px;
+  width: 300px;
+  height: 20px;
+  border: 1px solid grey;
+}
+.container header .body .text .form button {
+  padding: 6px;
+  border-radius: 12px;
+  border: none;
+  margin-top: -4px;
+  margin-left: -3px;
+}
+.container header .body .text .btn img {
+  width: 20px;
+  height: 20px;
+  position: relative;
+  top: 5px;
+}
+.container header .body img {
+  width: 400px;
+  height: 400px;
+}
+.container header .aside {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 30px;
+}
+.container header .aside .box {
+  display: flex;
+}
+.container header .aside .box .text {
+  margin-top: 10px;
+  margin-left: 10px;
+}
+.container header .aside .box .text p {
+  font-size: 12px;
+}
+.container header .nav {
+  display: flex;
+  justify-content: space-evenly;
+}
+.container header .nav .box {
+  align-self: center;
+}
+.container header .nav .box img {
+  width: 400px;
+  height: 300px;
+}
+.container header .foot {
+  text-align: center;
+  margin-top: 70px;
+}
+.container aside {
+  background-color: #abb9d4;
+  text-align: center;
+  height: 800px;
+  font-family: "Rubik", sans-serif;
+}
+.container aside .list {
+  height: 250px;
+  width: 600px;
+  background-color: white;
+  text-align: left;
+  margin: 0 auto;
+  border-radius: 14px;
+  position: relative;
+  bottom: 120px;
+}
+.container aside .list .paragph {
+  color: blue;
+  margin-left: 30px;
+  position: relative;
+  top: 40px;
+}
+.container aside .list h2 {
+  position: relative;
+  top: -90px;
+  margin-left: 30px;
+}
+.container aside .list h2 span {
+  color: blue;
+}
+.container aside .list .text {
+  position: relative;
+  top: -230px;
+  margin-left: 30px;
+}
+.container aside .list .card {
+  display: flex;
+  justify-content: space-around;
+  padding-top: 10px;
+}
+.container aside .list .card input {
+  border: none;
+  margin-left: -80px;
+  border-bottom: 1px solid grey;
+}
+.container aside h2 {
+  padding: 130px 0px;
+  position: relative;
+  bottom: 110px;
+}
+.container aside .item {
+  display: flex;
+  justify-content: space-evenly;
+  position: relative;
+  bottom: 200px;
+}
+.container aside .item .bgblueviolet {
+  width: 250px;
+  height: 265px;
+  background-color: #27095f;
+  color: white;
+  border-radius: 16px;
+  padding: 30px 0px;
+}
+.container aside .item .bgblueviolet img {
+  padding-bottom: 6px;
+}
+.container aside .item .bgblueviolet h2 {
+  padding: 6px 0;
+}
+.container aside .item .bgblueviolet p {
+  padding: 6px 0;
+}
+.container aside .item .bgblueviolet button img {
+  width: 20px;
+  height: 20px;
+  position: relative;
+  top: 13px;
+}
+.container aside .item .bgblueviolet span {
+  font-size: 12px;
+  opacity: 0.6;
+}
+.container aside .item .box {
+  width: 250px;
+  height: 265px;
+  background-color: white;
+  border-radius: 16px;
+  padding: 30px 0px;
+}
+.container aside .item .box img {
+  padding-bottom: 6px;
+}
+.container aside .item .box h2 {
+  padding: 6px 0;
+}
+.container aside .item .box p {
+  padding: 6px 0;
+}
+.container aside .item .box span {
+  font-size: 12px;
+  opacity: 0.6;
+}
+.container aside .item .box .icon {
+  width: 30px;
+  height: 30px;
+}
+.container section {
+  background-color: #2B076E;
+  color: white;
+  height: 1200px;
+  padding-top: 20px;
+  font-family: "Rubik", sans-serif;
+}
+.container section h2 {
+  text-align: center;
+}
+.container section .hard {
+  display: flex;
+  justify-content: space-evenly;
+}
+.container section .hard .box {
+  align-self: center;
+}
+.container section .hard .bitcoin {
+  width: 400px;
+  height: 200px;
+  background-color: #35068C;
+  border-radius: 12px;
+}
+.container section .hard .bitcoin .title {
+  display: flex;
+  justify-content: space-around;
+}
+.container section .hard .bitcoin .title .left {
+  padding: 8px 12px;
+  background-color: #491F98;
+  width: 90px;
+  height: 100px;
+  border-radius: 12px;
+}
+.container section .hard .bitcoin .title .right {
+  padding: 8px 12px;
+  background-color: #491F98;
+  width: 90px;
+  height: 40px;
+  border-radius: 12px;
+}
+.container section .hard .bitcoin .ancor {
+  display: flex;
+  justify-content: space-around;
+}
+.container section .hard .bitcoin .ancor .text {
+  display: flex;
+}
+.container section .hard .bitcoin .ancor .text img {
+  width: 40px;
+  height: 40px;
+  margin-top: 20px;
+}
+.container section .hard .bitcoin .ancor .text h3 {
+  margin-top: 20px;
+}
+.container section .hard .bitcoin .ancor .text h3 span {
+  font-size: 12px;
+  opacity: 0.6;
+}
+.container section .hard .bitcoin .ancor .text p {
+  position: relative;
+  bottom: 10px;
+  font-size: 12px;
+  opacity: 0.6;
+}
+.container section .hard .bitcoin .ancor .number {
+  color: #42FFFF;
+}
+.container section .hard .bitcoin img {
+  width: 350px;
+  height: 100px;
+}
+.container section .child {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 100px;
+}
+.container section .child .box img {
+  width: 400px;
+  height: 300px;
+}
+.container section .child .text {
+  align-self: center;
+}
+.container section .wrap {
+  display: flex;
+  justify-content: space-around;
+  margin: 40px 0;
+}
+.container section .wrap .title {
+  align-self: center;
+}
+.container section .wrap .title h2 {
+  text-align: left;
+}
+.container section .wrap .pic {
+  padding: 20px 6px;
+  background-color: #6e4cad;
+  width: 400px;
+  height: 200px;
+  border-radius: 12px;
+}
+.container section .wrap .pic .nav {
+  display: flex;
+  justify-content: space-around;
+}
+.container section .wrap .pic .nav .icon {
+  display: flex;
+}
+.container section .wrap .pic .nav .icon .paragrph {
+  position: relative;
+  top: -15px;
+}
+.container section .wrap .pic .nav .icon .paragrphs {
+  margin-left: -30px;
+  margin-top: 20px;
+}
+.container section .wrap .pic .nav img {
+  width: 40px;
+  height: 40px;
+}
+.container section .wrap .pic .left {
+  position: relative;
+  left: -80px;
+  background-color: #866faf;
+  border-radius: 10px;
+  width: 400px;
+  height: 50px;
+}
+.container section .wrap .pic .bottom {
+  position: relative;
+  top: 20px;
+}
+.container section .mark {
+  display: flex;
+  background-color: #3671E9;
+  width: 900px;
+  height: 150px;
+  border-radius: 12px;
+  justify-content: space-evenly;
+  margin: 40px auto;
+  align-items: center;
+}
+.container section .mark input {
+  border: none;
+  background-color: #3671E9;
+  width: 200px;
+  height: 30px;
+  border-bottom: 1px solid grey;
+  align-self: center;
+}
+.container section .mark button {
+  background-color: white;
+  color: black;
+  border: none;
+  border-radius: 20px;
+  padding: 4px 8px;
+  width: 100px;
+  height: 40px;
+  align-self: center;
+}
+.container footer {
+  background-color: #0D0D2B;
+  color: white;
+  height: 320px;
+  font-family: "Rubik", sans-serif;
+}
+.container footer .body {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 40px 0px;
+}
+.container footer .body .icon {
+  display: flex;
+  margin-top: -10px;
+}
+.container footer .body .icon img {
+  width: 30px;
+  height: 30px;
+}
+.container footer .body .icon h5 {
+  margin-top: 10px;
+  margin-left: 10px;
+}
+.container footer .body .box h4 {
+  margin-left: 40px;
+}
+.container footer .body .box li {
+  padding: 4px 0;
+}
+.container footer .body .pic {
+  display: flex;
+  margin-top: 20px;
+}
+.container footer .body .pic .img {
+  padding: 5px;
+}
+.container footer .foot {
+  display: flex;
+  justify-content: space-around;
+}
+.container footer .foot p {
+  margin-left: -50px;
+}
+.container footer .foot .pic {
+  margin-left: 250px;
+}
+.container footer .foot .pic img {
+  padding: 0 8px;
+}/*# sourceMappingURL=style.css.map */
